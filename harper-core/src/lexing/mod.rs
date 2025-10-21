@@ -290,7 +290,7 @@ fn lex_punctuation(source: &[char]) -> Option<FoundToken> {
 fn lex_quote(source: &[char]) -> Option<FoundToken> {
     let c = *source.first()?;
 
-    if c == '\"' || c == '“' || c == '”' {
+    if c == '\"' || c == '“' || c == '”' || с == '„' || c == '«' || c == '»'  {
         Some(FoundToken {
             next_index: 1,
             token: TokenKind::Punctuation(Punctuation::Quote(Quote { twin_loc: None })),

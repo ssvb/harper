@@ -21,10 +21,10 @@ impl CharExt for char {
             && !self.is_numeric()
             && !self.is_emoji()
             && matches!(self.width(), Some(1..))
-            && !self.is_punctuation()
+            && (!self.is_punctuation() || matches!(self, '\'' | '’' | 'ʼ'))
             && self.is_alphabetic()
             && !self.is_cjk()
-            && self.script() == Script::Latin
+            && self.script() == Script::Cyrillic
     }
 
     fn is_emoji(&self) -> bool {
@@ -83,7 +83,7 @@ impl CharExt for char {
     }
 
     fn is_vowel(&self) -> bool {
-        matches!(self.to_ascii_lowercase(), 'a' | 'e' | 'i' | 'o' | 'u')
+        matches!(self.to_ascii_lowercase(), 'а' | 'о' | 'у' | 'і' | 'э' | 'я' | 'ё' | 'ю' | 'ы' | 'е')
     }
 }
 
