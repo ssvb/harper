@@ -2,8 +2,7 @@ name: Chrome Plugin
 
 on:
   push:
-    branches: ["master"]
-    tags: ["v*"]
+    branches: ["master", "replace_english_with_belarusian", "replace_english_with_croatian"]
   pull_request:
     branches: ["master"]
   merge_group:
