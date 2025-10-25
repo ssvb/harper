@@ -30,7 +30,9 @@ jobs:
       - name: Build Chrome Plugin
         run: just build-chrome-plugin
       - name: Build Firefox Plugin
-        run: just build-firefox-plugin
+        run: |
+          just build-firefox-plugin
+          mv packages/chrome-plugin/package/harper-firefox-plugin.zip harper-firefox-plugin.xpi
       - name: Upload Chrome extension
         uses: actions/upload-artifact@v4
         with:
@@ -40,7 +42,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: harper-firefox-plugin.zip
-          path: "packages/chrome-plugin/package/harper-firefox-plugin.zip"
+          path: "harper-firefox-plugin.xpi"
       - name: Release artifacts
         uses: ncipollo/release-action@v1
         if: startsWith(github.ref, 'refs/tags/v')
