@@ -2,7 +2,7 @@ name: Chrome Plugin
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master", "wip"]
     tags: ["v*"]
   pull_request:
     branches: ["master"]
