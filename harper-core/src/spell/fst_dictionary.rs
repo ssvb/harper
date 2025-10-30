@@ -23,7 +23,7 @@ pub struct FstDictionary {
     words: Vec<(CharString, DictWordMetadata)>,
 }
 
-const EXPECTED_DISTANCE: u8 = 3;
+const EXPECTED_DISTANCE: u8 = 1;
 const TRANSPOSITION_COST_ONE: bool = true;
 
 lazy_static! {
