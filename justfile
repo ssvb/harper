@@ -302,6 +302,18 @@ dogfood:
     ./target/release/harper-cli lint $file
   done
 
+# Measure the heap usage of `harper-cli` when checking a small simple sentence
+heaptrack:
+  #!/usr/bin/env ruby
+  `CARGO_PROFILE_RELEASE_DEBUG=true cargo build --release`
+  result = `echo "Ths is a test." | heaptrack ./target/release/harper-cli lint`
+  if result =~ /(heaptrack \-\-analyze.*)/
+    result2 = `#{$1.strip}`
+    if result2 =~ /peak heap memory consumption\: (\S+)/
+      puts "Peak heap usage: #{$1}"
+    end
+  end
+
 test-rust:
   cargo test
 
