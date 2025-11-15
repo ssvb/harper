@@ -22,7 +22,6 @@ jobs:
             check-js,
             test-rust,
             test-harperjs,
-            test-vscode,
             test-chrome-plugin,
             test-firefox-plugin,
             test-obsidian,
