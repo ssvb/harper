@@ -5,7 +5,7 @@ Message: |
 Suggest:
   - Replace with: “Fe”
   - Replace with: “F”
-  - Replace with: “Ff”
+  - Replace with: “F1”
 
 
 
@@ -817,9 +817,9 @@ Message: |
      664 | it, you perceive, after a moment, the eyes of Doctor T. J. Eckleburg. The eyes
          |                                                      ^~ Did you mean to spell `T.` this way?
 Suggest:
-  - Replace with: “Ta”
-  - Replace with: “Ti”
+  - Replace with: “To”
   - Replace with: “Th”
+  - Replace with: “Tu”
 
 
 
@@ -829,8 +829,8 @@ Message: |
          |                                                         ^~ Did you mean to spell `J.` this way?
 Suggest:
   - Replace with: “Jo”
-  - Replace with: “Jr”
   - Replace with: “JD”
+  - Replace with: “JP”
 
 
 
@@ -851,9 +851,9 @@ Message: |
      665 | of Doctor T. J. Eckleburg are blue and gigantic—their retinas are one yard high.
          |           ^~ Did you mean to spell `T.` this way?
 Suggest:
-  - Replace with: “Ta”
-  - Replace with: “Ti”
+  - Replace with: “To”
   - Replace with: “Th”
+  - Replace with: “Tu”
 
 
 
@@ -863,8 +863,8 @@ Message: |
          |              ^~ Did you mean to spell `J.` this way?
 Suggest:
   - Replace with: “Jo”
-  - Replace with: “Jr”
   - Replace with: “JD”
+  - Replace with: “JP”
 
 
 
@@ -928,9 +928,9 @@ Message: |
      699 | garage—Repairs. George B. Wilson. Cars bought and sold.—and I followed Tom
          |                        ^~ Did you mean to spell `B.` this way?
 Suggest:
-  - Replace with: “Bu”
   - Replace with: “Be”
-  - Replace with: “Bi”
+  - Replace with: “BO”
+  - Replace with: “Ba”
 
 
 
@@ -1245,9 +1245,9 @@ Message: |
      990 | B. Wilson at the Gasoline Pump,’ or something like that.”
          | ^~ Did you mean to spell `B.` this way?
 Suggest:
-  - Replace with: “Bu”
   - Replace with: “Be”
-  - Replace with: “Bi”
+  - Replace with: “BO”
+  - Replace with: “Ba”
 
 
 
@@ -2375,7 +2375,7 @@ Message: |
     1858 | farther out on the Island came the Cheadles and the O. R. P. Schraeders, and the
          |                                                     ^~ Did you mean to spell `O.` this way?
 Suggest:
-  - Replace with: “Os”
+  - Replace with: “On”
   - Replace with: “O”
   - Replace with: “OD”
 
@@ -2386,9 +2386,9 @@ Message: |
     1858 | farther out on the Island came the Cheadles and the O. R. P. Schraeders, and the
          |                                                        ^~ Did you mean to spell `R.` this way?
 Suggest:
-  - Replace with: “Re”
   - Replace with: “RI”
   - Replace with: “Ra”
+  - Replace with: “Ru”
 
 
 
@@ -2397,9 +2397,9 @@ Message: |
     1858 | farther out on the Island came the Cheadles and the O. R. P. Schraeders, and the
          |                                                           ^~ Did you mean to spell `P.` this way?
 Suggest:
-  - Replace with: “Pa”
-  - Replace with: “Po”
   - Replace with: “PE”
+  - Replace with: “Po”
+  - Replace with: “Pu”
 
 
 
@@ -2463,8 +2463,8 @@ Message: |
     1862 | The Dancies came, too, and S. B. Whitebait, who was well over sixty, and Maurice
          |                            ^~ Did you mean to spell `S.` this way?
 Suggest:
-  - Replace with: “So”
   - Replace with: “SA”
+  - Replace with: “Se”
   - Replace with: “Si”
 
 
@@ -2474,9 +2474,9 @@ Message: |
     1862 | The Dancies came, too, and S. B. Whitebait, who was well over sixty, and Maurice
          |                               ^~ Did you mean to spell `B.` this way?
 Suggest:
-  - Replace with: “Bu”
   - Replace with: “Be”
-  - Replace with: “Bi”
+  - Replace with: “BO”
+  - Replace with: “Ba”
 
 
 
@@ -2488,7 +2488,7 @@ Message: |
 Suggest:
   - Replace with: “Ax”
   - Replace with: “A”
-  - Replace with: “Ab”
+  - Replace with: “Ad”
 
 
 
@@ -2566,8 +2566,8 @@ Message: |
     1868 | Excellence, and Eckhaust and Clyde Cohen and Don S. Schwartze (the son) and
          |                                                  ^~ Did you mean to spell `S.` this way?
 Suggest:
-  - Replace with: “So”
   - Replace with: “SA”
+  - Replace with: “Se”
   - Replace with: “Si”
 
 
@@ -2656,7 +2656,7 @@ Message: |
 Suggest:
   - Replace with: “Dad”
   - Replace with: “Dam”
-  - Replace with: “Day”
+  - Replace with: “Db”
 
 
 
@@ -2700,9 +2700,9 @@ Message: |
     1872 | and James B. (“Rot-Gut”) Ferret and the De Jongs and Ernest Lilly—they came to
          |           ^~ Did you mean to spell `B.` this way?
 Suggest:
-  - Replace with: “Bu”
   - Replace with: “Be”
-  - Replace with: “Bi”
+  - Replace with: “BO”
+  - Replace with: “Ba”
 
 
 
@@ -2874,8 +2874,8 @@ Message: |
     1881 | Scullys and S. W. Belcher and the Smirkes and the young Quinns, divorced now,
          |             ^~ Did you mean to spell `S.` this way?
 Suggest:
-  - Replace with: “So”
   - Replace with: “SA”
+  - Replace with: “Se”
   - Replace with: “Si”
 
 
@@ -2885,7 +2885,7 @@ Message: |
     1881 | Scullys and S. W. Belcher and the Smirkes and the young Quinns, divorced now,
          |                ^~ Did you mean to spell `W.` this way?
 Suggest:
-  - Replace with: “We”
+  - Replace with: “Wu”
   - Replace with: “WA”
   - Replace with: “WI”
 
@@ -2932,9 +2932,9 @@ Message: |
     1882 | and Henry L. Palmetto, who killed himself by jumping in front of a subway train
          |           ^~ Did you mean to spell `L.` this way?
 Suggest:
+  - Replace with: “Lo”
   - Replace with: “Le”
   - Replace with: “Li”
-  - Replace with: “Lu”
 
 
 
@@ -3054,9 +3054,9 @@ Message: |
     1896 | Fitz-Peters and Mr. P. Jewett, once head of the American Legion, and Miss
          |                     ^~ Did you mean to spell `P.` this way?
 Suggest:
-  - Replace with: “Pa”
-  - Replace with: “Po”
   - Replace with: “PE”
+  - Replace with: “Po”
+  - Replace with: “Pu”
 
 
 
@@ -5475,9 +5475,9 @@ Message: |
     3874 | while in silence. Then as Doctor T. J. Eckleburg’s faded eyes came into sight
          |                                  ^~ Did you mean to spell `T.` this way?
 Suggest:
-  - Replace with: “Ta”
-  - Replace with: “Ti”
+  - Replace with: “To”
   - Replace with: “Th”
+  - Replace with: “Tu”
 
 
 
@@ -5487,8 +5487,8 @@ Message: |
          |                                     ^~ Did you mean to spell `J.` this way?
 Suggest:
   - Replace with: “Jo”
-  - Replace with: “Jr”
   - Replace with: “JD”
+  - Replace with: “JP”
 
 
 
@@ -5544,9 +5544,9 @@ Message: |
     3948 | behind. Over the ashheaps the giant eyes of Doctor T. J. Eckleburg kept their
          |                                                    ^~ Did you mean to spell `T.` this way?
 Suggest:
-  - Replace with: “Ta”
-  - Replace with: “Ti”
+  - Replace with: “To”
   - Replace with: “Th”
+  - Replace with: “Tu”
 
 
 
@@ -5556,8 +5556,8 @@ Message: |
          |                                                       ^~ Did you mean to spell `J.` this way?
 Suggest:
   - Replace with: “Jo”
-  - Replace with: “Jr”
   - Replace with: “JD”
+  - Replace with: “JP”
 
 
 
@@ -7034,8 +7034,8 @@ Message: |
     5122 | ghost of a superior “Hm!”
          |                      ^~ Did you mean to spell `Hm` this way?
 Suggest:
+  - Replace with: “Ha”
   - Replace with: “Him”
-  - Replace with: “Ho”
   - Replace with: “Am”
 
 
@@ -7100,9 +7100,9 @@ Message: |
     5156 | of Doctor T. J. Eckleburg, which had just emerged, pale and enormous, from the
          |           ^~ Did you mean to spell `T.` this way?
 Suggest:
-  - Replace with: “Ta”
-  - Replace with: “Ti”
+  - Replace with: “To”
   - Replace with: “Th”
+  - Replace with: “Tu”
 
 
 
@@ -7112,8 +7112,8 @@ Message: |
          |              ^~ Did you mean to spell `J.` this way?
 Suggest:
   - Replace with: “Jo”
-  - Replace with: “Jr”
   - Replace with: “JD”
+  - Replace with: “JP”
 
 
 
@@ -7508,7 +7508,7 @@ Message: |
     5352 | I think it was on the third day that a telegram signed Henry C. Gatz arrived
          |                                                              ^~ Did you mean to spell `C.` this way?
 Suggest:
-  - Replace with: “Cu”
+  - Replace with: “Co”
   - Replace with: “CI”
   - Replace with: “Ce”
 
@@ -7616,8 +7616,8 @@ Message: |
          |                                                               ^~ Did you mean to spell `J.` this way?
 Suggest:
   - Replace with: “Jo”
-  - Replace with: “Jr”
   - Replace with: “JD”
+  - Replace with: “JP”
 
 
 
@@ -7643,9 +7643,9 @@ Message: |
     5455 | and I’m sort of helpless without them. My address is care of B. F.———”
          |                                                              ^~ Did you mean to spell `B.` this way?
 Suggest:
-  - Replace with: “Bu”
   - Replace with: “Be”
-  - Replace with: “Bi”
+  - Replace with: “BO”
+  - Replace with: “Ba”
 
 
 
@@ -7656,7 +7656,7 @@ Message: |
 Suggest:
   - Replace with: “Fe”
   - Replace with: “F”
-  - Replace with: “Ff”
+  - Replace with: “F1”
 
 
 
@@ -8203,7 +8203,7 @@ Message: |
 Suggest:
   - Replace with: “Ell”
   - Replace with: “Ea”
-  - Replace with: “E”
+  - Replace with: “Elm”
 
 
 

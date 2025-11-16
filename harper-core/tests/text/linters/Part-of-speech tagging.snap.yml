@@ -38,9 +38,9 @@ Message: |
       18 | two distinctive groups: rule-based and stochastic. E. Brill's tagger, one of the
          |                                                    ^~ Did you mean to spell `E.` this way?
 Suggest:
-  - Replace with: “E”
-  - Replace with: “Ea”
   - Replace with: “Ed”
+  - Replace with: “Eh”
+  - Replace with: “Em”
 
 
 
@@ -78,7 +78,7 @@ Message: |
 Suggest:
   - Replace with: “Nun”
   - Replace with: “Non”
-  - Replace with: “Na”
+  - Replace with: “Nu”
 
 
 
@@ -100,9 +100,9 @@ Message: |
          |                                                                               ^~ Did you mean to spell `NP` this way?
       50 | for singular proper nouns (see the POS tags used in the Brown Corpus). Other
 Suggest:
+  - Replace with: “Nu”
   - Replace with: “Nap”
   - Replace with: “Nip”
-  - Replace with: “Nu”
 
 
 
@@ -236,7 +236,7 @@ Message: |
       87 | developed at Brown University by Henry Kučera and W. Nelson Francis, in the
          |                                                   ^~ Did you mean to spell `W.` this way?
 Suggest:
-  - Replace with: “We”
+  - Replace with: “Wu”
   - Replace with: “WA”
   - Replace with: “WI”
 
@@ -396,7 +396,7 @@ Message: |
      159 | In 1987, Steven DeRose and Kenneth W. Church independently developed dynamic
          |                                    ^~ Did you mean to spell `W.` this way?
 Suggest:
-  - Replace with: “We”
+  - Replace with: “Wu”
   - Replace with: “WA”
   - Replace with: “WI”
 

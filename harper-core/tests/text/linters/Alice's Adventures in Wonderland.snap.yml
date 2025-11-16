@@ -668,7 +668,7 @@ Message: |
      320 | she began again: “Où est ma chatte?” which was the first sentence in her French
          |                   ^~ Did you mean to spell `Où` this way?
 Suggest:
-  - Replace with: “Os”
+  - Replace with: “On”
   - Replace with: “O”
   - Replace with: “OD”
 
@@ -1026,7 +1026,7 @@ Message: |
      579 | little house, on the door of which was a bright brass plate with the name “W.
          |                                                                            ^~ Did you mean to spell `W.` this way?
 Suggest:
-  - Replace with: “We”
+  - Replace with: “Wu”
   - Replace with: “WA”
   - Replace with: “WI”
 
@@ -3207,8 +3207,8 @@ Message: |
     2477 | eagerly that the Gryphon said, in a rather offended tone, “Hm! No accounting for
          |                                                            ^~ Did you mean to spell `Hm` this way?
 Suggest:
+  - Replace with: “Ha”
   - Replace with: “Him”
-  - Replace with: “Ho”
   - Replace with: “Am”
 
 

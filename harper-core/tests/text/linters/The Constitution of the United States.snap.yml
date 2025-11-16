@@ -42,8 +42,8 @@ Message: |
          |             ^~ Did you mean to spell `I.` this way?
 Suggest:
   - Replace with: “In”
+  - Replace with: “I”
   - Replace with: “Id”
-  - Replace with: “IC”
 
 
 
@@ -1727,9 +1727,9 @@ Message: |
      663 | ## Article. V.
          |             ^~ Did you mean to spell `V.` this way?
 Suggest:
-  - Replace with: “Vi”
   - Replace with: “Va”
-  - Replace with: “Vs.”
+  - Replace with: “V”
+  - Replace with: “V6”
 
 
 

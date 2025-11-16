@@ -636,7 +636,7 @@ Message: |
 Suggest:
   - Replace with: “Ax”
   - Replace with: “A”
-  - Replace with: “Ab”
+  - Replace with: “Ad”
 
 
 
@@ -686,7 +686,7 @@ Message: |
      207 | Computer scientists Edsger W. Dijkstra and Tony Hoare regard instructions for
          |                            ^~ Did you mean to spell `W.` this way?
 Suggest:
-  - Replace with: “We”
+  - Replace with: “Wu”
   - Replace with: “WA”
   - Replace with: “WI”
 
@@ -765,9 +765,9 @@ Message: |
      216 | that they are theory, abstraction (modeling), and design. Amnon H. Eden
          |                                                                 ^~ Did you mean to spell `H.` this way?
 Suggest:
-  - Replace with: “He”
-  - Replace with: “Hi”
   - Replace with: “Ht”
+  - Replace with: “HM”
+  - Replace with: “HQ”
 
 
 
@@ -862,9 +862,9 @@ Message: |
      262 | The famous P = NP? problem, one of the Millennium Prize Problems, is an open
          |                ^~ Did you mean to spell `NP` this way?
 Suggest:
+  - Replace with: “Nu”
   - Replace with: “Nap”
   - Replace with: “Nip”
-  - Replace with: “Nu”
 
 
 
@@ -988,9 +988,9 @@ Message: |
      393 | term "architecture" in computer literature can be traced to the work of Lyle R.
          |                                                                              ^~ Did you mean to spell `R.` this way?
 Suggest:
-  - Replace with: “Re”
   - Replace with: “RI”
   - Replace with: “Ra”
+  - Replace with: “Ru”
 
 
 
@@ -999,9 +999,9 @@ Message: |
      394 | Johnson and Frederick P. Brooks Jr., members of the Machine Organization
          |                       ^~ Did you mean to spell `P.` this way?
 Suggest:
-  - Replace with: “Pa”
-  - Replace with: “Po”
   - Replace with: “PE”
+  - Replace with: “Po”
+  - Replace with: “Pu”
 
 
 
