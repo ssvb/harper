@@ -21,6 +21,9 @@ jobs:
             check-rust,
             check-js,
             test-rust,
+            test-harperjs,
+            test-vscode,
+            test-chrome-plugin,
             test-firefox-plugin,
             test-obsidian,
           ]
@@ -47,4 +50,4 @@ jobs:
       - name: Install `cargo hack`
         run: cargo binstall cargo-hack --force --no-confirm
       - name: Run `${{ matrix.task }}`
-        run: NODE_OPTIONS="--max-old-space-size=8192" just ${{ matrix.task }}
+        run: NODE_OPTIONS="--max-old-space-size=4096" just ${{ matrix.task }}
