@@ -47,4 +47,4 @@ jobs:
       - name: Install `cargo hack`
         run: cargo binstall cargo-hack --force --no-confirm
       - name: Run `${{ matrix.task }}`
-        run: just ${{ matrix.task }}
+        run: NODE_OPTIONS="--max-old-space-size=8192" just ${{ matrix.task }}
