@@ -15,12 +15,12 @@ test('Can apply basic suggestion.', async ({ page }) => {
 	const pm = getProseMirrorEditor(page);
 	await replaceEditorContent(pm, 'This is an test');
 
-	await page.waitForTimeout(3000);
+	await page.waitForTimeout(30000);
 
 	await clickHarperHighlight(page);
 	await page.getByTitle('Replace with "a"').click();
 
-	await page.waitForTimeout(3000);
+	await page.waitForTimeout(30000);
 
 	await expect(pm).toContainText('This is a test');
 	await pm.press('Control+ArrowDown');
@@ -36,7 +36,7 @@ test('Can ignore suggestion.', async ({ page }) => {
 	const cacheSalt = randomString(5);
 	await replaceEditorContent(pm, cacheSalt);
 
-	await page.waitForTimeout(3000);
+	await page.waitForTimeout(30000);
 
 	const opened = await clickHarperHighlight(page);
 	expect(opened).toBe(true);

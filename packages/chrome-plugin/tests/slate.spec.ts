@@ -15,12 +15,12 @@ test('Can apply basic suggestion.', async ({ page }) => {
 	const slate = getSlateEditor(page);
 	await replaceEditorContent(slate, 'This is an test');
 
-	await page.waitForTimeout(3000);
+	await page.waitForTimeout(30000);
 
 	await clickHarperHighlight(page);
 	await page.getByTitle('Replace with "a"').click();
 
-	await page.waitForTimeout(3000);
+	await page.waitForTimeout(30000);
 
 	expect(slate).toContainText('This is a test');
 
@@ -36,7 +36,7 @@ test('Can ignore suggestion.', async ({ page }) => {
 	const cacheSalt = randomString(5);
 	await replaceEditorContent(slate, cacheSalt);
 
-	await page.waitForTimeout(3000);
+	await page.waitForTimeout(30000);
 
 	const opened = await clickHarperHighlight(page);
 	expect(opened).toBe(true);

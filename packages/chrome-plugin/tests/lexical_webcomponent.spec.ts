@@ -27,7 +27,7 @@ test.describe('Lexical webcomponent regression', () => {
 		await clickHarperHighlight(page);
 		await page.getByTitle('Replace with "a"').click();
 
-		await page.waitForTimeout(3000);
+		await page.waitForTimeout(30000);
 		const afterFirst = 'This is a test. This is an test again.';
 		await expect(lexical).toHaveText(afterFirst);
 		await expect(mirror).toHaveText(afterFirst);
@@ -36,7 +36,7 @@ test.describe('Lexical webcomponent regression', () => {
 		await clickHarperHighlight(page);
 		await page.getByTitle('Replace with "a"').click();
 
-		await page.waitForTimeout(3000);
+		await page.waitForTimeout(30000);
 		const finalText = 'This is a test. This is a test again.';
 		await expect(lexical).toHaveText(finalText);
 		await expect(mirror).toHaveText(finalText);

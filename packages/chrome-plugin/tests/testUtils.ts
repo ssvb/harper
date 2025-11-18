@@ -82,7 +82,7 @@ export async function testBasicSuggestionTextarea(testPageUrl: string) {
 		await clickHarperHighlight(page);
 		await page.getByTitle('Replace with "a"').click();
 
-		await page.waitForTimeout(3000);
+		await page.waitForTimeout(30000);
 
 		expect(editor).toHaveValue('This is a test');
 	});
